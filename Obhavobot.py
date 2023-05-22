@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-bot=Bot(token="5897018152:AAHuJK5D2SWMLIqcT8qOTno3pMVyQ6AUunA")
+bot=Bot(token="API token Yozing")
 dp=Dispatcher(bot)
 
 @dp.message_handler(commands="start")
